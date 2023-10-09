@@ -221,6 +221,27 @@ aside h6 {
   display: inline-block;
 }
 
+aside ul {
+  padding: 1rem;
+  display: flex;
+  list-style: none;
+}
+
+aside ul li a {
+  padding: 5px;
+  border-radius: 3px;
+  color: #751f7c;
+  background-color: #f3eeee;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: ease-in-out 0.3s;
+}
+
+aside ul li a:hover {
+  color: white;
+  background-color: #751f7c;
+}
+
 aside h6::before {
   width: 0;
   position: absolute;
