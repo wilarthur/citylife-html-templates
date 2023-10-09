@@ -177,6 +177,8 @@ article h4:hover {
 
 .pages a {
   background-color: #fff;
+  color: #757575;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,6 +187,12 @@ article h4:hover {
   margin: 0 0.5rem;
   text-decoration: none;
   border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.pages a:hover {
+  background-color: #751f7c;
+  color: #fff;
 }
 
 /* Aside */
@@ -199,10 +207,30 @@ aside div {
   margin-bottom: 3rem;
 }
 
-aside h3 {
+aside h6 {
   background-color: #751f7c;
   color: white;
-  padding: 1rem;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 8px 0 15px;
+  position: relative;
+  width: auto;
+  height: 40px;
+  display: inline-block;
+}
+
+aside h6::before {
+  width: 0;
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0px 30px;
+  content: "";
+  border-color: transparent transparent transparent #751f7c;
 }
 
 footer {
