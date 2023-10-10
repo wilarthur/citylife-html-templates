@@ -92,6 +92,10 @@ nav a {
   padding: 0 1rem;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .desktop-menu {
   display: flex;
   align-items: center;
@@ -123,9 +127,11 @@ nav a {
   background-color: #002954;
 }
 
-.mobile-menu {
+.mobile-buttons {
   display: none;
 }
+
+/* Search bar */
 
 #search-bar {
   height: 5rem;
@@ -137,6 +143,7 @@ nav a {
 #search-bar input {
   width: 50%;
   height: 2.5rem;
+  padding: 0 1rem;
 }
 
 #search-bar button {
@@ -153,6 +160,24 @@ nav a {
 #search-bar button:hover {
   background-color: #002954;
   cursor: pointer;
+}
+
+/* Mobile menu */
+
+#mobile-menu {
+  background-color: #751f7c;
+  flex-wrap: wrap;
+}
+
+#mobile-menu a {
+  color: white;
+  width: 100%;
+  padding: 1rem 3rem;
+  text-decoration: none;
+}
+
+#mobile-menu a:hover {
+  text-decoration: underline;
 }
 
 /* Banner ad */
@@ -425,11 +450,11 @@ footer {
 }
 
 @media only screen and (max-width: 990px) {
-  .mobile-menu {
+  .mobile-buttons {
     display: block;
   }
 
-  .mobile-menu button {
+  .mobile-buttons button {
     width: 35px;
     height: 35px;
     margin-right: 1.5rem;
@@ -440,7 +465,7 @@ footer {
     transition: ease-in-out 0.3s;
   }
 
-  .mobile-menu button:hover {
+  .mobile-buttons button:hover {
     background-color: #002954;
     cursor: pointer;
   }
