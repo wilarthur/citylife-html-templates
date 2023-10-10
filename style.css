@@ -92,6 +92,10 @@ nav a {
   padding: 0 1rem;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* Banner ad */
 .banner-ad {
   margin: 2rem 0;
@@ -334,7 +338,45 @@ footer {
 
 /* ----- Mobile styling ----- */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1150px) {
+  nav {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-menu button {
+    width: 35px;
+    height: 35px;
+    margin-right: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    transition: ease-in-out 0.3s;
+  }
+
+  .mobile-menu button:hover {
+    background-color: #002954;
+    cursor: pointer;
+  }
+
+  #open-mobile-menu {
+    background-image: url("/images/icons/menu.svg");
+  }
+
+  #open-mobile-search {
+    background-image: url("/images/icons/search.svg");
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
   main {
     width: 100%;
   }
@@ -342,5 +384,18 @@ footer {
   aside {
     width: 100%;
     padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  article {
+    flex-wrap: wrap;
+    height: 600px;
+  }
+
+  article > div {
+    height: 300px;
+    width: 100%;
+    padding: 1rem;
   }
 }

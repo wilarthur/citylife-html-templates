@@ -8,8 +8,7 @@ let getCurrentDate = date.toLocaleDateString("en-UK", {
   year: "numeric",
 });
 let getCurrentTime =
-  " " +
-  date.toLocaleTimeString("en-UK", { timeStyle: "short", hour12: "true" });
+  "" + date.toLocaleTimeString("en-UK", { timeStyle: "short", hour12: "true" });
 
 currentDate.innerText = getCurrentDate;
 currentTime.innerText = getCurrentTime;
