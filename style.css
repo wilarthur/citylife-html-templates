@@ -433,6 +433,10 @@ aside h6::before {
   color: #007bff;
 }
 
+.story-content img {
+  max-width: 100%;
+}
+
 /* Footer */
 
 footer {
