@@ -413,6 +413,7 @@ aside h6::before {
 .story-content ul,
 .story-content ol,
 .story-content a {
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -423,6 +424,7 @@ aside h6::before {
 }
 
 .story-content h2 {
+  margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
