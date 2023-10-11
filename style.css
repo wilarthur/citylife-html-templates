@@ -508,6 +508,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .date-time-social {
+    padding: 1rem;
+  }
+
   main,
   .top-topics {
     padding: 1rem;
@@ -525,7 +529,20 @@ footer {
   }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 490px) {
+  .date-time-social {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  .date-time-social div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
   nav a {
     padding: 0 0.5rem;
   }
