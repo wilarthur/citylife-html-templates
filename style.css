@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 2.5rem;
   padding: 1.5rem 0;
 }
 
@@ -202,53 +202,12 @@ nav a:hover {
   max-width: 100%;
 }
 
-/* Blog posts */
+/* Homepage posts */
 main {
   width: 66%;
   padding: 0 3rem;
   float: left;
-}
-
-/* Story page */
-
-.story-content {
-  background-color: #fff;
-  padding: 1rem 5rem;
-}
-
-.story-meta-info {
-  width: 100%;
-  display: flex;
-}
-
-.story-meta-info > div {
-  width: 100%;
-}
-
-.author-profile-picture {
-  max-height: 3rem;
-  margin-right: 2rem;
-  border-radius: 50%;
-}
-
-.meta-top-container {
-  border-bottom: 1px solid gray;
-  padding-bottom: 0.5rem;
-}
-
-.meta-top-container > a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
-
-.meta-top-container > a:hover {
-  color: #234bd7;
-}
-
-.meta-bottom-container {
-  padding-top: 0.5rem;
-  display: flex;
+  margin-bottom: 2rem;
 }
 
 article {
@@ -275,7 +234,7 @@ article .tags {
   margin-top: 2rem;
 }
 
-article .tags > a {
+.tags > a {
   text-decoration: none;
   color: #fff;
   background-color: #751f7c;
@@ -402,6 +361,77 @@ aside h6::before {
   content: "";
   border-color: transparent transparent transparent #751f7c;
 }
+
+/* Story page */
+
+.story {
+  background-color: #fff;
+  padding: 1rem 3rem;
+}
+
+.story-meta-info {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.story-meta-info > div {
+  width: 100%;
+}
+
+.author-profile-picture {
+  max-height: 3rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.meta-top-container {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.5rem;
+}
+
+.meta-top-container > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.meta-top-container > a:hover {
+  color: #234bd7;
+}
+
+.meta-bottom-container {
+  padding-top: 0.5rem;
+  display: flex;
+}
+
+.meta-published-date {
+  margin-right: 1rem;
+}
+
+.story-content > p,
+.story-content ul,
+.story-content ol,
+.story-content a {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.story-content ul,
+.story-content ol {
+  margin-left: 3rem;
+}
+
+.story-content h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.story-content a {
+  color: #007bff;
+}
+
+/* Footer */
 
 footer {
   clear: both;
