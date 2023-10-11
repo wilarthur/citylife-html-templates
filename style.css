@@ -9,6 +9,11 @@ body {
   background-color: #eeeeee;
 }
 
+h1 {
+  font-size: 38px;
+  padding: 1.5rem 0;
+}
+
 /* Header */
 
 header {
@@ -202,6 +207,48 @@ main {
   width: 66%;
   padding: 0 3rem;
   float: left;
+}
+
+/* Story page */
+
+.story-content {
+  background-color: #fff;
+  padding: 1rem 5rem;
+}
+
+.story-meta-info {
+  width: 100%;
+  display: flex;
+}
+
+.story-meta-info > div {
+  width: 100%;
+}
+
+.author-profile-picture {
+  max-height: 3rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.meta-top-container {
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.5rem;
+}
+
+.meta-top-container > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.meta-top-container > a:hover {
+  color: #234bd7;
+}
+
+.meta-bottom-container {
+  padding-top: 0.5rem;
+  display: flex;
 }
 
 article {
