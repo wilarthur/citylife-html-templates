@@ -440,6 +440,51 @@ aside h6::before {
   max-width: 100%;
 }
 
+.story-social {
+  display: flex;
+  justify-content: end;
+  height: 5rem;
+  width: 100%;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.fb-icon,
+.tw-icon,
+.em-icon,
+.li-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 0.5em;
+}
+
+.fb-icon {
+  background-color: #3b5998;
+}
+
+.tw-icon {
+  background-color: #1da1f2;
+}
+
+.em-icon {
+  background-color: #000;
+}
+
+.li-icon {
+  background-color: #cd201f;
+}
+
+.fb-icon img,
+.tw-icon img,
+.em-icon img,
+.li-icon img {
+  height: 25px;
+  width: 25px;
+}
+
 /* Footer */
 
 footer {
