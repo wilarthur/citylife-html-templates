@@ -436,8 +436,33 @@ aside h6::before {
   color: #007bff;
 }
 
+.story-content a:hover {
+  color: #0056b3;
+}
+
 .story-content img {
   max-width: 100%;
+}
+
+.story-content blockquote {
+  display: block;
+  border-left: 5px solid #751f7c;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.story-content blockquote::before {
+  color: #751f7c;
+  content: open-quote;
+  font-size: 8em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.6em;
+}
+
+.story-content blockquote p {
+  display: inline;
 }
 
 .story-social {
