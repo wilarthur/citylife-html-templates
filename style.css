@@ -427,9 +427,22 @@ aside h6::before {
 }
 
 .story-content h2 {
+  font-size: 2rem;
+}
+
+.story-content h3 {
+  font-size: 1.6rem;
+}
+
+.story-content h4 {
+  font-size: 1.4rem;
+}
+
+.story-content h2,
+.story-content h3,
+.story-content h4 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
 }
 
 .story-content a {
@@ -445,24 +458,26 @@ aside h6::before {
 }
 
 .story-content blockquote {
-  display: block;
+  display: flex;
   border-left: 5px solid #751f7c;
   background-color: #f5f5f5;
   padding: 1rem;
-  quotes: "\201C""\201D""\2018""\2019";
 }
 
-.story-content blockquote::before {
+.story-content blockquote .open-quote {
   color: #751f7c;
-  content: open-quote;
-  font-size: 8em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.6em;
+  font-size: 5rem;
+  height: 1px;
+  width: 5%;
 }
 
 .story-content blockquote p {
-  display: inline;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.story-content blockquote cite {
+  font-size: 1.2rem;
 }
 
 .story-social {

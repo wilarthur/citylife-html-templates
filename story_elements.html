@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelmsford City Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section class="date-time-social">
+            <div>
+                <p><span id="current_date"></span><span id="current_time"></span></p>
+            </div>
+            <div>
+                <!--These should be CMS editable -->
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+            </div>
+        </section>
+        <nav><a href="/"><img src="/images/City Life Logo.webp"></a>
+            <div class="desktop-menu">
+                <!-- These should be CMS editable -->
+                <a href="">Home</a>
+                <a href="">ChelmsTV</a>
+                <a href="">News</a>
+                <a href="">Features</a>
+                <a href="">What's On</a>
+                <a href="">Community</a>
+                <a href="">Business</a>
+                <button id="open-desktop-search"></button>
+            </div>
+            <div class="mobile-buttons">
+                <button id="open-mobile-search"></button>
+                <button id="open-mobile-menu"></button>
+            </div>
+        </nav>
+        <section id="search-bar" style="display: none;">
+            <input type="search" placeholder="Search...">
+            <button type="submit"></button>
+        </section>
+        <section id="mobile-menu" style="display: none;">
+            <a href="">Home</a>
+            <a href="">ChelmsTV</a>
+            <a href="">News</a>
+            <a href="">Features</a>
+            <a href="">What's On</a>
+            <a href="">Community</a>
+            <a href="">Business</a>
+        </section>
+        <section class="top-topics">
+            <p># Top topics</p>
+            <a href="">topic 1</a>
+            <a href="">topic 2</a>
+            <a href="">topic 3</a>
+        </section>
+    </header>
+
+
+    <main>
+        <section class="story">
+            <span class="tags"><a href="/">Caterogy 1</a></span>
+            <h1>Story title here</h1>
+            <span class="story-meta-info">
+                <img class="author-profile-picture" src="/images/profile-picture-placeholder.png"></img>
+                <div>
+                    <div class="meta-top-container">
+                        <a href="">Author Name</a>
+                    </div>
+                    <div class="meta-bottom-container">
+                        <div class="meta-published-date">
+                            <p>Today's date</p>
+                        </div>
+                        <div class="tags">
+                            <a href="">tag 1</a>
+                            <a href="">tag 2</a>
+                            <a href="">tag 3</a>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <section class="story-content">
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <p>This is a test paragraph. As you can imagine, we tend to use this one the most and sometimes use
+                    <strong>bold
+                        for emphasis</strong>. We
+                    also use quotes in almost every piece we write…
+                </p>
+
+                <blockquote>
+                    <span class="open-quote">&ldquo;</span>
+                    <span class="quote-content">
+                        <p>Quotes are an essential feature of nearly all of our articles on City Life and it’s great
+                            that we
+                            can make these stand
+                            out from the rest of the text..</p>
+                        <cite>Julie Weight, Chelmsford City Council</cite>
+                    </span>
+                </blockquote>
+
+            </section>
+            <section class="story-social">
+                <a href="" class="fb-icon"><img src="/images/icons/facebook.svg" alt=""></a>
+                <a href="" class="tw-icon"><img src="/images/icons/twitter.svg" alt=""></a>
+                <a href="" class="em-icon"><img src="/images/icons/mail.svg" alt=""></a>
+                <a href="" class="li-icon"><img src="/images/icons/linkedin.svg" alt=""></a>
+            </section>
+            <section class="about-the-author">
+                <img class="author-profile-picture" src="/images/profile-picture-placeholder.png">
+                <div>
+                    <a>Author Name</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                        cursus ante dapibus
+                        diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+                        mauris.
+                        Fusce nec tellus
+                        sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                </div>
+            </section>
+        </section>
+        <section class="related-stories-section">
+            <h4>Related stories</h4>
+            <div class="related-stories-items">
+                <div class="related-story" style="background-image: url(/images/Article\ BG\ image.webp);">
+                    <div class="tags">
+                        <a href="">Tag 1</a><a href="">Tag 2</a><a href="">Tag 3</a>
+                    </div>
+                    <a href="">
+                        <h4>Article title</h4>
+                    </a>
+                    <div class="related-meta">
+                        <p>Date</p>
+                        <a href="">Author</a>
+                    </div>
+                </div>
+                <div class="related-story" style="background-image: url(/images/Article\ BG\ image.webp);">
+                    <div class="tags">
+                        <a href="">Tag 1</a><a href="">Tag 2</a><a href="">Tag 3</a>
+                    </div>
+                    <a href="">
+                        <h4>Article title</h4>
+                    </a>
+                    <div class="related-meta">
+                        <p>Date</p>
+                        <a href="">Author</a>
+                    </div>
+                </div>
+                <div class="related-story" style="background-image: url(/images/Article\ BG\ image.webp);">
+                    <div class="tags">
+                        <a href="">Tag 1</a><a href="">Tag 2</a><a href="">Tag 3</a>
+                    </div>
+                    <a href="">
+                        <h4>Article title</h4>
+                    </a>
+                    <div class="related-meta">
+                        <p>Date</p>
+                        <a href="">Author</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <div>
+            <h6>Most popular tags</h6>
+
+            <ul>
+                <li><a href="">culture</a></li>
+                <li><a href="">green spaces</a></li>
+                <li><a href="">leisure</a></li>
+                <li><a href="">outdoors</a></li>
+                <li><a href="">support</a></li>
+            </ul>
+
+        </div>
+        <div>
+            <h6>Search the site</h6>
+        </div>
+        <div>
+            iTrent image here
+        </div>
+        <div>
+            <h6>Follow us on Twitter</h6>
+        </div>
+        <div>
+            <h6>Travel</h6>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer-social">
+            <h6>Follow us:</h6>
+            <a href="" class="footer-facebook"><img src="/images/icons/facebook.svg"></a>
+            <a href="" class="footer-twitter"><img src="/images/icons/twitter.svg" alt=""></a>
+            <a href="" class="footer-instagram"><img src="/images/icons/instagram.svg" alt=""></a>
+            <a href="" class="footer-youtube"><img src="/images/icons/youtube.svg" alt=""></a>
+        </div>
+        <div class="footer-links">
+            <p>© Copyright 2023 Chelmsford City Council. All rights reserved.</p>
+            <div><a href="">Home</a><a href="">About Chelmsford City Life</a><a href="">Contact us</a><a
+                    href="">Jobs</a><a href="">Privacy policy</a><a href="">Sign up for updates</a></div>
+        </div>
+    </footer>
+</body>
+
+
+<script src="getDateTime.js"></script>
+<script src="toggleMenuSearch.js"></script>
+
+</html>
