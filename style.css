@@ -366,7 +366,7 @@ aside h6::before {
 
 .story {
   background-color: #fff;
-  padding: 1rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .story-meta-info {
@@ -453,15 +453,30 @@ aside h6::before {
   color: #0056b3;
 }
 
-.story-content img {
+.story-content figure {
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.story-content figure img {
+  width: 100%;
   max-width: 100%;
+}
+
+.story-content figure figcaption {
+  margin-top: 1rem;
 }
 
 .story-content blockquote {
   display: flex;
+  justify-content: space-between;
   border-left: 5px solid #751f7c;
   background-color: #f5f5f5;
   padding: 1rem;
+  margin: 1rem 0;
 }
 
 .story-content blockquote .open-quote {
@@ -469,6 +484,10 @@ aside h6::before {
   font-size: 5rem;
   height: 1px;
   width: 5%;
+}
+
+.story-content blockquote .quote-content {
+  width: 90%;
 }
 
 .story-content blockquote p {
