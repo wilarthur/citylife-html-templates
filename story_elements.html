@@ -111,20 +111,33 @@
                 <p>We also use video and mostly embed from YouTube or Vimeo using a URL.</p>
 
                 <figure>
-                    <iframe class="youtube-player" width="640" height="360"
+                    <iframe class="youtube-player"
                         src="https://www.youtube.com/embed/CdvPDHqpliE?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=en-GB&amp;autohide=2&amp;wmode=transparent"
                         allowfullscreen="true" style="border:0;"
                         sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe>
                 </figure>
                 <p>Image galleries are also useful.</p>
                 <div class="gallery">
-                    <img class="thumbnail-img"
+                    <img class="thumbnail-img" onClick="openLightbox()"
                         src="https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt=""><img class="thumbnail-img"
                         src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt=""><img class="thumbnail-img"
                         src="https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
+                </div>
+
+                <div class="lightbox-ovelay" id="lightboxOverlay" style="display:none;">
+                    <button class="close-lightbox" id="closeLightbox" onclick="closeLightbox()">X</button>
+                    <button class="previous-image" id="previousImage">&lt;</button>
+                    <button class="next-image" id="nextImage">&gt;</button>
+                    <div id="imageContainer">
+                        <img src="https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                    </div>
+                    <div id="captionContainer">
+                        <p>This is an image caption</p>
+                    </div>
                 </div>
             </section>
             <section class="story-social">
