@@ -118,21 +118,28 @@
                 </figure>
                 <p>Image galleries are also useful.</p>
                 <div class="gallery">
-                    <img class="thumbnail-img" onClick="openLightbox()"
+                    <img class="thumbnail-img" onClick="openLightbox();currentSlide(1)"
                         src="https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt=""><img class="thumbnail-img"
+                        alt=""><img class="thumbnail-img" onClick="openLightbox();currentSlide(2)"
                         src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        alt=""><img class="thumbnail-img"
+                        alt=""><img class="thumbnail-img" onClick="openLightbox();currentSlide(3)"
                         src="https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
                 </div>
 
                 <div class="lightbox-ovelay" id="lightboxOverlay" style="display:none;">
-                    <button class="close-lightbox" id="closeLightbox" onclick="closeLightbox()">X</button>
-                    <button class="previous-image" id="previousImage">&lt;</button>
-                    <button class="next-image" id="nextImage">&gt;</button>
+                    <button class="close-lightbox" id="closeLightbox" onClick="closeLightbox()">X</button>
+                    <button class="previous-image" id="previousImage" onCLick="changeSlide(-1)">&lt;</button>
+                    <button class="next-image" id="nextImage" onClick="changeSlide(1)">&gt;</button>
                     <div id="imageContainer">
-                        <img src="https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        <img class="slide-image"
+                            src="https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                        <img class="slide-image"
+                            src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="">
+                        <img class="slide-image"
+                            src="https://images.pexels.com/photos/808465/pexels-photo-808465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="">
                     </div>
                     <div id="captionContainer">
