@@ -44,6 +44,6 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
 
-  //Set correct image to displau in main container
+  //Set correct image to display in main container
   slides[slideIndex - 1].style.display = "block";
 }
