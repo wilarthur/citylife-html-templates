@@ -253,6 +253,26 @@ article .tags {
   margin-top: 2rem;
 }
 
+.tags {
+  display: inline-block;
+}
+
+.tags a:hover {
+  transition: ease-in-out 0.3s;
+  background-color: #007bff;
+}
+
+.tag-icon {
+  background-image: url(/images/icons/tag.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .tags > a {
   text-decoration: none;
   color: #fff;
