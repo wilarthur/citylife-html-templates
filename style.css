@@ -257,7 +257,8 @@ article .tags {
   display: inline-block;
 }
 
-.tags a:hover {
+.tags a:hover,
+.tags a:focus {
   transition: ease-in-out 0.3s;
   background-color: #007bff;
 }
@@ -399,6 +400,58 @@ aside h6::before {
   border-width: 40px 0 0px 30px;
   content: "";
   border-color: transparent transparent transparent #751f7c;
+}
+
+.notif-signup,
+.email-signup {
+  display: block;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 3px solid #751f7c;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  font-size: 1rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.notif-signup-icon,
+.email-signup-icon {
+  display: inline-block;
+  background-image: url(/images/icons/bell-purple.svg);
+  width: 25px;
+  height: 25px;
+  margin-left: 1rem;
+  vertical-align: middle;
+  font-size: 1rem !important;
+}
+
+.email-signup-icon {
+  background-image: url(/images/icons/mail-purple.svg);
+}
+
+.notif-signup:hover,
+.email-signup:hover {
+  color: #751f7c;
+}
+
+.notif-signup:hover,
+.email-signup:hover {
+  background-color: #751f7c;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.notif-signup:hover .notif-signup-icon {
+  background-image: url(/images/icons/bell.svg);
+  transition: ease-in-out 0.3s;
+}
+
+.email-signup:hover .email-signup-icon {
+  background-image: url(/images/icons/mail.svg);
+  transition: ease-in-out 0.3s;
 }
 
 /* Story page */
