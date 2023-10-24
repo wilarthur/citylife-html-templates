@@ -726,6 +726,7 @@ aside h6::before {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 1rem;
+  overflow: auto;
 }
 
 .carousel-thumbnails > img:hover {
