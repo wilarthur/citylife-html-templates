@@ -477,6 +477,7 @@ aside h6::before {
 .story {
   background-color: #fff;
   padding: 2rem 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .story-meta-info {
@@ -819,6 +820,7 @@ iframe {
   padding: 1rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .related-stories-section > h4 {
