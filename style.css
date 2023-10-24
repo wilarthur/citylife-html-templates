@@ -489,6 +489,8 @@ aside h6::before {
   margin-top: 1rem;
 }
 
+/* Block quote */
+
 .story-content blockquote {
   display: flex;
   justify-content: space-between;
