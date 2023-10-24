@@ -350,6 +350,11 @@ aside div {
   margin-bottom: 3rem;
 }
 
+aside div img {
+  display: block;
+  width: 100%;
+}
+
 aside h6 {
   background-color: #751f7c;
   color: white;
@@ -402,16 +407,25 @@ aside h6::before {
   border-color: transparent transparent transparent #751f7c;
 }
 
+.sign-up {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .notif-signup,
 .email-signup {
   display: block;
-  margin: 0.5rem;
+  min-width: 350px;
+  margin-bottom: 1rem;
   padding: 1rem;
   border: 3px solid #751f7c;
   border-radius: 0.5rem;
+  color: #751f7c;
   text-decoration: none;
   text-align: center;
-  background: transparent;
+  background: #fff;
   font-size: 1rem;
   font-family: "Work Sans", sans-serif;
 }
@@ -1014,6 +1028,13 @@ footer {
     padding: 0 1rem;
   }
 
+  .sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
   .related-stories-section {
     margin-bottom: 2rem;
   }
@@ -1061,6 +1082,12 @@ footer {
   article {
     flex-wrap: wrap;
     height: 600px;
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   article > div {
