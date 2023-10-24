@@ -451,24 +451,23 @@ aside h6::before {
 }
 
 .notif-signup:hover,
-.email-signup:hover {
-  color: #751f7c;
-}
-
-.notif-signup:hover,
-.email-signup:hover {
+.email-signup:hover,
+.notif-signup:focus,
+.email-signup:focus {
   background-color: #751f7c;
   color: #fff;
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }
 
-.notif-signup:hover .notif-signup-icon {
+.notif-signup:hover .notif-signup-icon,
+.notif-signup:focus .notif-signup-icon {
   background-image: url(/images/icons/bell.svg);
   transition: ease-in-out 0.3s;
 }
 
-.email-signup:hover .email-signup-icon {
+.email-signup:hover .email-signup-icon,
+.email-signup:focus .email-signup-icon {
   background-image: url(/images/icons/mail.svg);
   transition: ease-in-out 0.3s;
 }
