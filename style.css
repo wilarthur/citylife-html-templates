@@ -130,12 +130,14 @@ nav a:hover {
 
 #open-mobile-menu {
   background-image: url("/images/icons/menu.svg");
+  border-radius: 0.5rem;
 }
 
 #open-mobile-search,
 #open-desktop-search {
   background-image: url("/images/icons/search.svg");
   background-size: contain;
+  border-radius: 0.5rem;
 }
 
 .desktop-menu button {
