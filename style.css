@@ -355,6 +355,11 @@ aside div img {
   width: 100%;
 }
 
+.aside-h6-wrapper {
+  display: block;
+  border-bottom: 2px solid #751f7c;
+}
+
 aside h6 {
   background-color: #751f7c;
   color: white;
