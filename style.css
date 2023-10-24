@@ -578,6 +578,7 @@ aside h6::before {
 }
 
 .story-content figure figcaption {
+  font-family: "Work Sans", sans-serif;
   margin-top: 1rem;
 }
 
@@ -611,6 +612,8 @@ aside h6::before {
 
 .story-content blockquote cite {
   font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
 }
 
 /* Gallery */
