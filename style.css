@@ -1085,21 +1085,34 @@ footer {
     padding: 1rem;
   }
 
+  .story-content .gallery {
+    flex-direction: column;
+  }
+
+  .story-content .gallery .thumbnail-img {
+    width: 100%;
+  }
+
+  #carouselFeaturedImg {
+    width: 100%;
+    height: auto;
+  }
+
   article {
     flex-wrap: wrap;
     height: 600px;
-  }
-
-  .sign-up {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 
   article > div {
     height: 300px;
     width: 100%;
     padding: 1rem;
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
 
