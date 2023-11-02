@@ -221,6 +221,22 @@ nav a:hover {
   max-width: 100%;
 }
 
+/* Page intro */
+.page-intro {
+  background-color: #fff;
+  margin-top: 0.5rem;
+  padding: 3rem 4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.page-intro h1 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
 /* Homepage posts */
 main {
   width: 66%;
