@@ -449,6 +449,7 @@ aside h6::before {
   margin-left: 1rem;
   vertical-align: middle;
   font-size: 1rem !important;
+  background-repeat: no-repeat;
 }
 
 .email-signup-icon {
