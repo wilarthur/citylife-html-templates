@@ -291,6 +291,10 @@ article .tags {
   margin-right: 10px;
 }
 
+.meta-info > a > img {
+  margin-right: 0.5rem;
+}
+
 .meta-info > a:hover {
   color: #751f7c;
 }
