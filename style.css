@@ -650,12 +650,11 @@ aside h6::before {
 
 .story-content .gallery {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.story-content .gallery .thumbnail-img {
-  width: 33%;
+.story-content .gallery .thumbnail-img img {
   max-height: 200px;
   object-fit: cover;
   margin-bottom: 0.5%;
