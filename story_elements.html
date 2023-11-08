@@ -11,29 +11,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
-    <!-- Magnific Popup -->
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.6.4/dist/jquery.min.js"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js "></script>
+    <!-- Magnific Popup -->
     <link href=" https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css " rel="stylesheet">
-    <script>
-        $(document).ready(function () {
-            $('.gallery').each(function () { // the containers for all your galleries
-                $(this).magnificPopup({
-                    delegate: 'a', // the selector for gallery item
-                    type: 'image',
-                    gallery: {
-                        enabled: true,
-                        navigateByImgClick: true,
-                        arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
-                        tPrev: 'Previous (Left arrow key)', // title for left button
-                        tNext: 'Next (Right arrow key)', // title for right button
-                        tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
-                    }
-                });
-            });
-        });
-    </script>
+    <!-- Slick carousel -->
+    <link href=" https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css " rel="stylesheet">
+
 </head>
 
 <body>
@@ -163,32 +146,11 @@
                     with the post.</p>
 
                 <div class="carousel">
-                    <div class="carousel-container">
-                        <div id="carouselFeaturedImg">
-                            <img class="carousel-image"
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Article-15.png?resize=768%2C432&ssl=1"
-                                alt=""><img class="carousel-image"
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Article-14.png?resize=768%2C432&ssl=1"
-                                alt=""><img class="carousel-image" onClick="currentCar(3)"
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/X-Panto-23-cast.png?resize=768%2C432&ssl=1"
-                                alt="">
-                            <img class="carousel-image" onClick="currentCar(4)"
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Untitled-design-1-8.png?resize=768%2C480&ssl=1">
-
-                        </div>
-                        <div class="carousel-thumbnails">
-                            <img src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Article-15.png?resize=768%2C432&ssl=1"
-                                alt="" tabindex="0" onClick="currentCar(1)"><img
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Article-14.png?resize=768%2C432&ssl=1"
-                                alt="" tabindex="0" onClick="currentCar(2)"><img
-                                src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/X-Panto-23-cast.png?resize=768%2C432&ssl=1"
-                                alt="" tabindex="0" onClick="currentCar(3)">
-                            <img src="https://i0.wp.com/citylife.chelmsford.gov.uk/wp-content/uploads/2023/10/Untitled-design-1-8.png?resize=768%2C480&ssl=1"
-                                tabindex="0" onClick="currentCar(4)">
-
-                        </div>
-                    </div>
+                    <div><img src="/images/Article BG image.webp" alt=""></div>
+                    <div><img src="/images/City Life Banner Ad.png" alt=""></div>
+                    <div><img src="/images/City Life Logo.webp" alt=""></div>
                 </div>
+
 
             </section>
             <section class="story-social">
@@ -292,6 +254,11 @@
                     href="">Jobs</a><a href="">Privacy policy</a><a href="">Sign up for updates</a></div>
         </div>
     </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js "></script>
+    <script src="/lightboxGallery.js"></script>
+
+    <script src=" https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="/carousel.js"></script>
 </body>
 
 <script src="toggleMenuSearch.js"></script>
