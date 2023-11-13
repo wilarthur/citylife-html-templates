@@ -173,6 +173,12 @@ nav a:hover {
   align-items: center;
 }
 
+#cludo-search-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #search-bar input {
   width: 50%;
   height: 2.5rem;
