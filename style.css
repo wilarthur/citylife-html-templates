@@ -448,6 +448,10 @@ aside h6::before {
   align-items: center;
 }
 
+.sign-up a {
+  text-decoration: none;
+}
+
 .notif-signup,
 .email-signup {
   display: block;
@@ -1021,6 +1025,152 @@ footer {
 
 .footer-links a:hover {
   color: #fff;
+}
+
+/* Form fields */
+
+.umbraco-forms-fieldset {
+  padding: 0 !important;
+}
+
+.umbraco-forms-field {
+  margin-top: 20px;
+}
+
+.umbraco-forms-field-wrapper {
+  padding-bottom: 1rem;
+  overflow: auto;
+}
+
+.umbraco-forms-label {
+  margin-bottom: 0.5rem;
+}
+
+.umbraco-forms-navigation input[type="submit"] {
+  background-color: #751f7c;
+  color: white;
+  font-size: 1em;
+  padding: 1rem 2rem;
+  border: 3px solid #751f7c;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.umbraco-forms-navigation input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #751f7c;
+}
+
+.umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > span.field-validation-error {
+  float: left;
+  width: 100%;
+  background-color: #ff3333 !important;
+  color: #000 !important;
+  border: 2px solid #000;
+  border-top: none;
+  padding: 1rem !important;
+  margin-bottom: 1rem;
+}
+
+.umbraco-forms-field > .umbraco-forms-field-wrapper > input.text,
+.umbraco-forms-field > .umbraco-forms-field-wrapper > textarea,
+.umbraco-forms-field > .umbraco-forms-field-wrapper > select,
+.umbraco-forms-field > .umbraco-forms-field-wrapper > input.datepickerfield {
+  max-width: 100% !important;
+  width: 100%;
+  padding: 1em;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #fff;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > input[type="checkbox"],
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .checkboxlist
+  > input {
+  width: 24px !important;
+  height: 24px !important;
+  margin-right: 0.5rem;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .checkboxlist {
+  padding: 0;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .checkboxlist
+  > input,
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .radiobuttonlist
+  > input {
+  margin-left: 0.5rem;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .checkboxlist
+  > label,
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .radiobuttonlist
+  > label {
+  float: left;
+  clear: left;
+  padding-top: 12px;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .checkboxlist
+  > br,
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .radiobuttonlist
+  > br {
+  margin: 1rem;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > .radiobuttonlist
+  > input {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.umbraco-forms-container
+  > .umbraco-forms-field
+  > .umbraco-forms-field-wrapper
+  > input[type="file"] {
+  font-size: 1em;
+  padding: 1rem;
+  border: 1px dashed grey;
+  border-radius: 5px;
+}
+
+.g-recaptcha {
+  overflow: hidden;
 }
 
 /* ----- Mobile styling ----- */
