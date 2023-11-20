@@ -1187,6 +1187,30 @@ footer {
   overflow: hidden;
 }
 
+/* Cludo */
+
+.powered-by-cludo {
+  display: none !important;
+}
+
+.cludo-page-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+#cludo-search-results ul.search_page_list,
+.cludo-search-results ul.search_page_list {
+  width: auto !important;
+}
+
+.search_page_list > li > a {
+  padding: 0;
+}
+
+.active {
+  vertical-align: middle;
+}
+
 /* ----- Mobile styling ----- */
 
 @media only screen and (max-width: 1350px) {
