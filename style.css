@@ -1211,6 +1211,11 @@ footer {
   vertical-align: middle;
 }
 
+.next {
+  padding: 0 !important;
+  width: auto !important;
+}
+
 /* ----- Mobile styling ----- */
 
 @media only screen and (max-width: 1350px) {
@@ -1346,6 +1351,18 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  #cludo-search-results .cludo-c-3,
+  .cludo-search-results .cludo-c-3 {
+    display: none;
+  }
+
+  #cludo-search-results .cludo-c-9,
+  .cludo-search-results .cludo-c-9 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 }
 
