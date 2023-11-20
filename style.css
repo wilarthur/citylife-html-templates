@@ -1347,6 +1347,10 @@ footer {
     margin-right: 0.5rem;
   }
 
+  .story {
+    padding: 1rem;
+  }
+
   .story-content figure {
     width: 100%;
   }
