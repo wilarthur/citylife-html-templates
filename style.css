@@ -27,7 +27,8 @@ h6 {
 }
 
 p,
-a {
+a,
+li {
   font-family: "Work Sans", sans-serif;
 }
 
@@ -942,6 +943,55 @@ iframe {
 .related-meta a {
   color: white;
   margin-right: 2rem;
+}
+
+/* All authors section */
+.all-author-info {
+  background-color: #f3f3f4;
+  padding: 2rem;
+}
+
+.all-author-info > span {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.all-author-left {
+  width: 15%;
+}
+
+.all-author-left > img {
+  width: 100%;
+}
+
+.all-author-right {
+  width: 85%;
+  padding-left: 2rem;
+}
+
+.all-author-right p {
+  margin-bottom: 0.75rem;
+}
+
+.all-author-name {
+  font-size: 1.5em;
+}
+
+.all-author-right > a > button {
+  background-color: #751f7c;
+  border: 3px solid #751f7c;
+  color: white;
+  height: 4rem;
+  font-size: 1em;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 3.1rem;
+}
+
+.all-author-right > a > button:hover {
+  background-color: #fff;
+  color: #751f7c;
+  cursor: pointer;
 }
 
 /* Footer */
