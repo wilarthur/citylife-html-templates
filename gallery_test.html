@@ -14,7 +14,8 @@
                     arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
                     tPrev: 'Previous (Left arrow key)', // title for left button
                     tNext: 'Next (Right arrow key)', // title for right button
-                    tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+                    tCounter: '<span class="mfp-counter">%curr% of %total%</span>', // markup of counter
+                    titleSrc: 'title'
                 }
             });
         });
@@ -26,8 +27,10 @@
 
 <body>
     <div class="gallery">
-        <a class="gallery-item" href="/images/City Life Banner Ad.png"><img src="/images/City Life Banner Ad.png"></a>
-        <a class="gallery-item" href="/images/City Life Logo.webp"><img src="/images/City Life Logo.webp"></a>
+        <a class="gallery-item" href="/images/City Life Banner Ad.png" title="City Life Banner Ad Title"><img
+                src="/images/City Life Banner Ad.png"></a>
+        <a class="gallery-item" href="/images/City Life Logo.webp" title="City Life Logo Title"><img
+                src="/images/City Life Logo.webp"></a>
     </div>
     <br>
     <br>
