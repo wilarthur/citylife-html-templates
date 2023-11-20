@@ -1043,9 +1043,16 @@ footer {
   margin-top: 20px;
 }
 
+.umbraco-forms-field div label {
+  max-width: 80%;
+}
+
 .umbraco-forms-field-wrapper {
   padding-bottom: 1rem;
   overflow: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .umbraco-forms-label {
@@ -1078,6 +1085,7 @@ footer {
   border: 2px solid #000;
   border-top: none;
   padding: 1rem !important;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
