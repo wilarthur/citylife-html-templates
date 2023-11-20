@@ -771,6 +771,7 @@ aside h6::before {
 .slick-slide.slick-current.slick-active {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .slick-slide img {
