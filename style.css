@@ -1088,6 +1088,10 @@ footer {
 
 .umbraco-forms-fieldset {
   padding: 0 !important;
+  display: inline;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .umbraco-forms-field {
