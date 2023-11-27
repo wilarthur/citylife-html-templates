@@ -618,7 +618,8 @@ aside h6::before {
   max-width: 100%;
 }
 
-.story-content figure figcaption {
+.story-content figure figcaption,
+.gallery-caption {
   font-family: "Work Sans", sans-serif;
   margin-top: 1rem;
 }
@@ -663,6 +664,10 @@ aside h6::before {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.gallery-caption {
+  margin: 0 10%;
 }
 
 .story-content .gallery .thumbnail-img img {
