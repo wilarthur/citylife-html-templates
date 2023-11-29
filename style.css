@@ -624,6 +624,18 @@ aside h6::before {
   margin-top: 1rem;
 }
 
+/* Story tables */
+
+.story-content table {
+  border-collapse: collapse;
+}
+
+.story-content td {
+  font-size: 1.2em;
+  padding: 1em;
+  border: 1px solid;
+}
+
 /* Block quote */
 
 .story-content blockquote {
