@@ -63,7 +63,7 @@ header {
 }
 
 .date-time-social a {
-  color: #007bff;
+  color: #0079fa;
   margin: 0 10px;
   text-decoration: none;
 }
@@ -287,7 +287,7 @@ article .tags {
 .tags a:hover,
 .tags a:focus {
   transition: ease-in-out 0.3s;
-  background-color: #007bff;
+  background-color: #0079fa;
 }
 
 .tag-icon {
@@ -598,7 +598,7 @@ aside h6::before {
 }
 
 .story-content a {
-  color: #007bff;
+  color: #0079fa;
 }
 
 .story-content a:hover {
