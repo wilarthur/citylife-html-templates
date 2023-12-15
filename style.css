@@ -624,6 +624,7 @@ aside h6::before {
 .gallery-caption {
   font-family: "Work Sans", sans-serif;
   margin-top: 1rem;
+  text-align: center;
 }
 
 /* Story tables */
