@@ -1431,6 +1431,10 @@ footer {
     padding: 1rem;
   }
 
+  article > div:nth-child(2) {
+    height: auto;
+  }
+
   .sign-up {
     display: flex;
     flex-direction: column;
