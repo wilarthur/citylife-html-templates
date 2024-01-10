@@ -1422,7 +1422,7 @@ footer {
 
   article {
     flex-wrap: wrap;
-    height: 600px;
+    height: auto;
   }
 
   article > div {
