@@ -266,6 +266,26 @@ article {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
+.top-story {
+  background-color: #fff;
+  border: 5px solid #751f7c;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.top-story h3 {
+  padding: 1rem;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #751f7c;
+}
+
+.top-story > article {
+  margin: 0;
+  border: none;
+}
+
 article > div {
   height: 100%;
   width: 50%;
